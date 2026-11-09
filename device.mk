@@ -79,8 +79,7 @@ PRODUCT_PACKAGES += \
     libextensioneffect
 
 PRODUCT_PACKAGES += \
-    MtkInCallService \
-    LunarisDolby
+    MtkInCallService
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/audio/audio_effects_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_effects_config.xml \
@@ -301,8 +300,7 @@ PRODUCT_PACKAGES += \
     RodinSystemUIOverlay
 
 PRODUCT_PACKAGES += \
-    RodinApertureOverlay \
-    RodinLineageSettingsOverlay
+    RodinApertureOverlay
 
 PRODUCT_PACKAGES += \
     NcmTetheringOverlay
